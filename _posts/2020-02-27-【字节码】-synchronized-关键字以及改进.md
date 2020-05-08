@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      synchronized 关键字原理详解（字节码、自旋）
+title:      【字节码】synchronized 关键字以及改进
 subtitle:   Java 并发学习系列博客
 date:       2020-02-27
 author:     GJXAIOU 
@@ -8,11 +8,10 @@ header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - Java 并发
+	- 字节码分析
 ---
 
-
-
-## synchronized 关键字原理详解（字节码、自旋）
+## synchronized 关键字原理详解
 
 ### （一）引言
 

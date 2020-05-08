@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      notify、notifyAll 方法详解以及线程获取锁的方式
+title:      【JavaDoc阅读】notify 与 notifyAll 方法分析
 subtitle:   Java 并发学习系列博客
 date:       2020-02-25
 author:     GJXAIOU 
@@ -8,15 +8,14 @@ header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - Java 并发
+	- 源码阅读
 ---
-
-
 
 ## notify、notifyAll 方法详解以及线程获取锁的方式
 
 ### （一） notify 方法分析
 
-下面为 notify 方法的 JavaDoc
+**下面为 notify 方法的 JavaDoc**
 
 ---
 

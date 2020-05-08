@@ -1,13 +1,14 @@
 ---
 layout:     post
-title:      Thread 类和 Runnable 接口源码分析（一）
+title:      【源码分析】Thread 类和 Runnable 接口
 subtitle:   Java 并发学习系列博客
 date:       2020-02-23
 author:     GJXAIOU 
 header-img: img/post-bg-debug.png
 catalog: true
 tags:
-    - Java 并发
+    - Java 并发	
+	- 源码阅读	
 ---
 
 ##  Thread 类与 Runnable 接口 JavaDoc 分析
