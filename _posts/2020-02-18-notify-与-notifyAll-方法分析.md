@@ -2,7 +2,7 @@
 layout:     post
 title:      【JavaDoc阅读】notify 与 notifyAll 方法分析
 subtitle:   Java 并发学习系列博客
-date:       2020-02-25
+date:       2020-02-18
 author:     GJXAIOU 
 header-img: img/post-bg-debug.png
 catalog: true
