@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      【字节码】synchronized 关键字以及改进
+title:      从字节码层面分析 synchronized 关键字以及改进
 subtitle:   Java 并发学习系列博客
 date:       2020-02-27
 author:     GJXAIOU 
@@ -15,7 +15,7 @@ tags:
 
 ### （一）引言
 
-**关于 synchronized 的一道题目**
+**示例程序：**
 
 ```java
 public class Test{

@@ -12,9 +12,9 @@ tags:
 	- 字节码
 ---
 
-## wait 和 sleep 方法字节码分析
+# wait 和 sleep 方法字节码分析
 
-### （一）Object 类中的关于线程的方法
+## （一）Object 类中的关于线程的方法
 
 主要包括 wait（） 、notify 、notifyAll 方法
 
@@ -62,9 +62,9 @@ public class Object {
 }    
 ```
 
-### （二）wait 方法详解
+## （二）wait 方法详解
 
-#### 1.无参数 wait 方法分析
+### 1.无参数 wait 方法分析
 
 **wait 方法的 JavaDoc**，这里是针对无参数的 wait() 方法：
 
@@ -122,7 +122,7 @@ public final void wait() throws InterruptedException {
     }
 ```
 
-#### 2.带参数 wait 方法分析
+### 2.带参数 wait 方法分析
 
 -----
 
@@ -200,7 +200,7 @@ public final void wait(long timeout, int nanos) throws InterruptedException {
 
 
 
-### （三）Thread 类的 sleep 方法详解
+## （三）Thread 类的 sleep 方法详解
 
 从下面Thread 类的 sleep 方法对应的 JavaDoc 可以看出 sleep 会一直持有该对象的锁，不会释放掉。
 

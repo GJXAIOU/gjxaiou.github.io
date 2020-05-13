@@ -11,9 +11,9 @@ tags:
 	- 源码阅读
 ---
 
-## notify、notifyAll 方法详解以及线程获取锁的方式
+# notify、notifyAll 方法详解以及线程获取锁的方式
 
-### （一） notify 方法分析
+## （一） notify 方法分析
 
 **下面为 notify 方法的 JavaDoc**
 
@@ -42,7 +42,7 @@ tags:
 public final native void notify();
 ```
 
-### （二）notifyAll 方法分析
+## （二）notifyAll 方法分析
 
 首先是介绍 notifyAll 方法的 JavaDoc
 
@@ -64,7 +64,7 @@ public final native void notifyAll();
 
 
 
-### （三）wait 和 notify 、notifyAll 方法与线程同步系统总结
+## （三）wait 和 notify 、notifyAll 方法与线程同步系统总结
 
 - 当调用 wait 方法时，首先需要确保**调用的 wait 方法的线程已经持有了对象的锁**；
 - 当调用 wait 方法后，该线程就会释放掉这个对象的锁，然后进入到等待状态（或者成为等待集合：wait set)；
@@ -77,7 +77,7 @@ public final native void notifyAll();
 
 
 
-### （四）wait 和 notify 方法案例剖析和详解
+## （四）wait 和 notify 方法案例剖析和详解
 
 编写一个多线程程序，实现目标：
 
