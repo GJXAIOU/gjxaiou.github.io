@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: gjxaiou@gmail.com
 description: "Every failure is leading towards success."
 keyword: "高基旭, GJXAIOU Blog, 高基旭的博客"
-url: "http://gjxaiou.com"          # your host, for absolute URL
+url: "http://gjxaiou.xzy"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/GJXAIOU/gjxaiou.github.io.git" # you code repository
 
